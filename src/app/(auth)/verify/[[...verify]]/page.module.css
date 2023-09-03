@@ -1,0 +1,40 @@
+.verify__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 2rem;
+}
+
+.verify__form,
+.verify__inputs,
+.verify__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.verify__input {
+  padding: .7rem 1.5rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0.1);
+  border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  transition: background 200ms, border 200ms;
+}
+
+.verify__btn {
+  padding: .6rem 1.5rem;
+  border-radius: 10px;
+  color: #111111;
+  font-weight: 600;
+  background-color: #e6e6e6;
+  transition: all .4s;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .verify__btn:hover {
+    background-color: #b6b6b6;
+    transition: all .4s;
+  }
+}

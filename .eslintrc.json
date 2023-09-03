@@ -1,0 +1,12 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-console":                                         [ "warn" ],
+    "quotes":                                             [ "error", "double" ],
+    "no-proto":                                           [ "error" ],
+    "no-useless-return":                                  [ "error" ],
+    "no-useless-concat":                                  [ "error" ],
+    "no-useless-call":                                    [ "error" ],
+    "no-useless-escape":                                  [ "error" ]
+  }
+}
